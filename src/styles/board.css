@@ -1,0 +1,42 @@
+.board-link {
+    background-color: #3498db;
+}
+.board-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 120px;
+  }
+  
+  .board {
+    width: 250px;
+    background-color: black;
+  }
+  
+  .board-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .board-heading {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font: 700 18px / 1.618 sans-serif;
+    list-style-type: none;
+    color: beige;
+  }
+  
+  .board-history {
+      background-color: black;
+      color: beige;
+      width: 250px;
+    margin-left: 18px;
+  }
+  
+  .board-history-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .board-footer {
+    width: 100%;
+  }
